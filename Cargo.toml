@@ -1,0 +1,13 @@
+[package]
+name = "arrow-flight"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow-format = { version = "0.8.1", features = ["flight-data"] }
+arrow2 = { version = "0.17.2", features = ["io_flight"] }
+futures-core = "0.3.28"
+pin-project-lite = "0.2.9"
+polars = "0.30.0"
