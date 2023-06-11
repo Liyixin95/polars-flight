@@ -9,5 +9,5 @@ edition = "2021"
 arrow-format = { version = "0.8.1", features = ["flight-data"] }
 arrow2 = { version = "0.17.2", features = ["io_flight"] }
 futures-core = "0.3.28"
-pin-project-lite = "0.2.9"
+futures-util = "0.3.28"
 polars = "0.30.0"
